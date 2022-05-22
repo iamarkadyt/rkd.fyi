@@ -30,18 +30,18 @@
         li:not(:last-child) {
             margin-bottom: 10px;  
         }
-        #main-img {
-            height: 100%;
+        #page-header {
+            display: flex;
+            margin-bottom: 50px;
+            align-items: center;
         }
         #main-img > img {
+            height: 100px;
             border-radius: 50%;
-            max-height: 100%;
-            max-width: 100%;
         }
         #headline {
-            text-align: center;
-            margin-bottom: 50px;
             display: block;
+            margin-left: 20px;
         }
         main {
             margin-top: 50px;
@@ -52,10 +52,12 @@
 <body>
     <main>
         <div>
-            <div id="main-img">
-                <img src="me.jpg" alt="Avatar" />
+            <div id="page-header">
+                <div id="main-img">
+                    <img src="me.jpg" alt="Avatar" />
+                </div>
+                <h1 id="headline">Arkady Titenko</h1>
             </div>
-            <h1 id="headline">Arkady Titenko</h1>
 
             <h2>Social Media</h2>
             <div style="display: flex; flex-wrap: wrap;">
@@ -83,10 +85,10 @@
             <h2>Professional Experience</h2>
             <ul>
                 <li>
-                    Software Engineer | Extend | 9 months
+                    Software Engineer | Extend | 1 year
                 </li>
                 <li>
-                    Senior Software Engineer | HP | 2 years 6 months
+                    Senior Software Engineer | HP | 2 years 3 months
                 </li>
                 <li>
                     <a href="https://www.credly.com/badges/6d240e06-7e0f-4826-8a6e-5329e88247f3">
